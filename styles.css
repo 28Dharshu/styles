@@ -1,0 +1,30 @@
+<a href="#main-content" class="skip-link">Skip to Main Content</a>
+<main id="main-content">
+    <!-- Main content goes here -->
+</main>
+nav {
+    display: inline-block; /* Change to inline-block */
+    width: 80%; /* Set width to 80% */
+}
+nav img {
+    width: 10%; /* Set width to 10% */
+}
+.grid {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(2, 40%); /* Two columns of 40% each */
+}
+.grid img {
+    width: 100%; /* Set width to 100% */
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    justify-content: center; /* Adjust as needed */
+    align-items: start; /* Adjust as needed */
+    row-gap: 20px; /* Adjust as needed */
+}
+.flex {
+    display: flex; /* Use flex layout */
+    flex-wrap: wrap; /* Allow wrapping */
+    justify-content: space-between; /* Adjust as needed */
+}
